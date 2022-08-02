@@ -21,3 +21,16 @@ function Save(){
     pr_ent.innerText += ' ' + people.innerText + ' - '
     console.log(people.innerText);
 }
+
+function Alert() {
+    // Pokazauje okienko wiadomości
+    alert("Okienko")
+
+
+    // Pokazauje okienko wiadomości z opcją wpisania czegoś
+    // promptprompt("Test", '');
+
+    // Pokazauje okienko wiadomości z opcją wybrania 2 przycisków (np. Ok i Cancel)
+    //let isBoss = confirm("Are you the boss?");
+    //alert( isBoss ); // true if OK is pressed
+}

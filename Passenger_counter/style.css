@@ -60,10 +60,10 @@ button:hover {
     background: pink;
 }
 
-#reset {
+#reset, #alert {
     background: rgb(56, 101, 214);
 }
-#reset:hover {
+#reset:hover, #alert:hover {
     background: rgb(50, 230, 227);
 }
 p {
