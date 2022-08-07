@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+}
+body {
+    background: url(https://media.istockphoto.com/vectors/poker-table-background-in-green-color-vector-id1218355494?k=20&m=1218355494&s=612x612&w=0&h=7izk2bQU_LDnKLLLbwAolAo4kwUmcwr_mo8_Vr7955w=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+#cassier img {
+    height: 150px;
+    width: 120px;
+    margin: 10px;
+}
+
+#yourcards img {
+    height: 150px;
+    width: 120px;
+    margin: 10px;
+}
+p {
+    font-size: 4em;
+    margin-top: 30px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+}
+.buttons {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+#start {
+    background-color: steelblue;
+}
+#draw {
+    background-color: yellowgreen;
+}
+#stay {
+    background-color: red;
+}
+
+button:hover { 
+    cursor: pointer;
+}
+#start:hover {
+    background-color: lightblue;
+}
+#draw:hover {
+    background-color: yellow;
+}
+#stay:hover {
+    background-color: rgb(219, 42, 83);
+}
